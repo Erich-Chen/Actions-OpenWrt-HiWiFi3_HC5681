@@ -1,4 +1,8 @@
-# Actions-OpenWrt
+# Actions-OpenWrt for HiWiFi 3 / Gee 3/ 极路由 3 (HC5681)
+
+My Action to compile OpenWrt for HiWiFi 3 (aka  Gee 3/ 极路由 3 / HC5681).
+
+All credits to https://github.com/P3TERX/Actions-OpenWrt.
 
 [![LICENSE](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square&label=LICENSE)](https://github.com/P3TERX/Actions-OpenWrt/blob/master/LICENSE)
 ![GitHub Stars](https://img.shields.io/github/stars/P3TERX/Actions-OpenWrt.svg?style=flat-square&label=Stars&logo=github)
