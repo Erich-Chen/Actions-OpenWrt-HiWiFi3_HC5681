@@ -2,6 +2,36 @@
 
 My Action to compile OpenWrt for HiWiFi 3 (aka  Gee 3/ 极路由 3 / HC5681).
 
+NOTE: To include passwall:
+
+````
+cd openwrt
+vim feeds.conf.default
+````
+
+Add the following line:
+
+`src-git kenzo https://github.com/kenzok8/openwrt-packages`
+
+Then:
+
+````
+./scripts/feeds update -a
+./scripts/feeds install -a
+````
+
+````
+make menuconfig
+````
+
+LUCI -> Application -> luci-app-passwall
+
+To continue compile:
+
+````
+touch /tmp/continue
+````
+
 All credits to https://github.com/P3TERX/Actions-OpenWrt.
 
 [![LICENSE](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square&label=LICENSE)](https://github.com/P3TERX/Actions-OpenWrt/blob/master/LICENSE)
