@@ -9,9 +9,9 @@ cd openwrt
 vim feeds.conf.default
 ````
 
-Add the following line:
+Add/uncomment the following line:
 
-`src-git kenzo https://github.com/kenzok8/openwrt-packages`
+`src-git helloworld https://github.com/fw876/helloworld`
 
 Then:
 
